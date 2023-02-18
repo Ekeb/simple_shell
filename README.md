@@ -1,12 +1,15 @@
 0x16. C - Simple Shell
+
 By Spencer Cheng, featuring Julien Barbier Project to be done in teams of 2
 people (your team: Eke Blessing, Joshua Joseph)
 
 Learning Objectives
+
 At the end of this project, you are expected to be able to explain to anyone,
 without the help of Google:
 
 General
+
 Who designed and implemented the original Unix operating system Who wrote the
 first version of the UNIX shell Who invented the B programming language 
 (the direct predecessor to the C programming language) Who is Ken Thompson How does
@@ -17,7 +20,9 @@ How to execute another program with the execve system call How to suspend the ex
 process until one of its children terminates What is EOF / “end-of-file”?
 
 Requirements
+
 General
+
 Allowed editors: vi, vim, emacs All your files will be compiled on Ubuntu 20.04 LTS using gcc, 
 using the options -Wall -Werror -Wextra -pedantic -std=gnu89 All your files should end with a 
 new line A README.md file, at the root of the folder of the project is mandatory Your code should 
@@ -26,6 +31,7 @@ have any memory leaks No more than 5 functions per file All your header files sh
 Use system calls only when you need to (why?)
 
 GitHub
+
 *There should be one project repository per group. If you and your partner have a repository with
 the same name in both your accounts, you risk a 0% score. Add your partner as a collaborator. *
 
@@ -48,11 +54,14 @@ exit (man 3 exit) _exit (man 2 _exit) fflush (man 3 fflush) fork (man 2 fork) fr
 wait4 (man 2 wait4) write (man 2 write)
 
 Compilation
+
 Your shell will be compiled this way:
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 files
+
 README.md - description about the project repo
+
 man_1_simple_shell - is the man page for the shell we are going to write.
 AUTHORS - file at the root of your repository, listing all individuals having contributed content to the repository.
 main.h - is the header file which contains the standared header file and prototype of o function used in the program.
